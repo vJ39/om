@@ -14,8 +14,14 @@ OM
 ### プログラム実行
 
 ```
-% ./parsekmz master.kmz
+% ./parsekmz -f master.kmz
 ```
+#### オプション
+- -f
+    - tsvファイル名
+    - デフォルト: master.tsv
+
+#### 解説
 - master.kmz.json が生成されます。
 - 標準出力にtsv形式で以下情報を出力します。
     - Name(プロットした名称)

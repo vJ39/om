@@ -4,6 +4,7 @@ import (
 	"archive/zip"
 	"encoding/json"
 	"encoding/xml"
+	"flag"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -41,12 +42,20 @@ type (
 )
 
 func main() {
-	if len(os.Args) > 1 {
-		if err := readfile(os.Args[1]); err != nil {
-			log.Fatal(err)
-		}
+	var (
+		filename *string
+	)
+	filename = flag.String("f", "", `Googleマップの.kmzファイル`)
+	flag.Parse()
+	if flag.NFlag() < 1 {
+		flag.Usage()
 		return
 	}
+
+	if err := readfile(*filename); err != nil {
+		log.Fatal(err)
+	}
+	return
 }
 
 func readfile(filename string) error {
