@@ -42,7 +42,7 @@ func (o *OM) InitFlag() {
 	if file, err := os.Executable(); err == nil {
 		os.Chdir(filepath.Dir(file))
 	}
-	o.flags.tsv = flag.String("tsv", "master.tsv", `マスターシートからコピペしたtsv`)
+	o.flags.tsv = flag.String("f", "master.tsv", `マスターシートからコピペしたtsv`)
 	flag.Parse()
 }
 

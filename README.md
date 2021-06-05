@@ -44,7 +44,7 @@ OM
 - master.kmz ファイルが生成されます。
 
 #### オプション
-- -tsv
+- -f
     - tsvファイル名
     - デフォルト: master.tsv
 
