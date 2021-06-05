@@ -26,12 +26,13 @@ OM
     - Name(プロットした名称)
     - Latitude(軽度)
     - Longitude(緯度)
-    - Description, - プロットの詳細テキスト
+    - Description
+        - プロットの詳細テキスト
         - インラインの画像や動画も含まれます。
-    - ExtendedData.Data.Value,
+    - ExtendedData.Data.Value
         - 添付ファイルのURLが含まれます。
         - Description で利用されます。
-    - StyleUrl,
+    - StyleUrl
         - 定義されたアイコンのid属性が入ります。
         - 定義部分はパースしてないので、識別用の参考値程度です。
 - 高度データはありません。
