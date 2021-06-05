@@ -39,6 +39,7 @@ OM
 
 ```
 % ./buildkmz
+% ./buildkmz -f foo.tsv
 ```
 
 - master.kmz ファイルが生成されます。
