@@ -18,8 +18,7 @@ OM
 ```
 #### オプション
 - -f
-    - tsvファイル名
-    - デフォルト: master.tsv
+    - kmzファイル名
 
 #### 解説
 - master.kmz.json が生成されます。
