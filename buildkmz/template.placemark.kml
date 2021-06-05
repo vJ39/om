@@ -1,0 +1,13 @@
+      <Placemark>
+        <name>$$$DocumentFolder0PlacemarkName$$$</name>
+        <description><![CDATA[$$$DocumentFolder0PlacemarkDescription$$$]]></description>
+        <styleUrl>$$$DocumentFolder0PlacemarkStyleUrl$$$</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[$$$DocumentFolder0PlacemarkExtendedDataDataValue$$$]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>$$$DocumentFolder0PlacemarkPointCoordinates$$$</coordinates>
+        </Point>
+      </Placemark>
