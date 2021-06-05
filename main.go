@@ -27,9 +27,15 @@ type (
 		Placemark []InPlacemark `xml:"Placemark"`
 	}
 	InPlacemark struct {
-		Name        string `xml:"name"`
-		Description string `xml:"description"`
-		Point       struct {
+		Name         string `xml:"name"`
+		Description  string `xml:"description"`
+		StyleUrl     string `xml:"styleUrl"`
+		ExtendedData struct {
+			Data struct {
+				Value string `xml:"value"`
+			} `xml:"Data"`
+		} `xml:"ExtendedData"`
+		Point struct {
 			Coordinates string `xml:"coordinates"`
 		} `xml:"Point"`
 	}
@@ -88,9 +94,12 @@ func readfile(filename string) error {
 		for _, placemark := range folder.Placemark {
 			placemark.Point.Coordinates = trim(placemark.Point.Coordinates)
 			placemark.Point.Coordinates = splitCoodinates(placemark.Point.Coordinates)
-			fmt.Printf("%s\t%s\n",
+			fmt.Printf("%s\t%s\t%s\t%s\t%s\n",
 				placemark.Name,
 				placemark.Point.Coordinates,
+				placemark.Description,
+				placemark.ExtendedData.Data.Value,
+				placemark.StyleUrl,
 			)
 		}
 	}
