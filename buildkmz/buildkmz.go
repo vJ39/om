@@ -10,6 +10,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path/filepath"
 	"time"
 )
 
@@ -38,6 +39,9 @@ type (
 )
 
 func (o *OM) InitFlag() {
+	if file, err := os.Executable(); err == nil {
+		os.Chdir(filepath.Dir(file))
+	}
 	o.flags.tsv = flag.String("tsv", "master.tsv", `マスターシートからコピペしたtsv`)
 	flag.Parse()
 }
@@ -143,7 +147,6 @@ func (o *OM) Zip() {
 	o.addFile("images/icon-3.png")
 	o.addFile("images/icon-4.png")
 	o.addFile("images/icon-5.png")
-
 }
 
 func (o *OM) addFile(path string) {
