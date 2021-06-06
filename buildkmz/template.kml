@@ -5,6 +5,15 @@
     <name>$$$DocumentName$$$</name>
     <description>$$$DocumentDescription$$$</description>
     <Style id="icon-1502-0288D1-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
       <IconStyle>
         <scale>1</scale>
         <Icon>

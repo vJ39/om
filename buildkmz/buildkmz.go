@@ -11,6 +11,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
@@ -25,6 +26,7 @@ type (
 			root                     []byte
 			DocumentFolder0Placemark bytes.Buffer
 			placemark                []byte
+			polygon                  []byte
 		}
 		val struct {
 			placemark struct {
@@ -33,6 +35,12 @@ type (
 				DocumentFolder0PlacemarkStyleUrl              []byte
 				DocumentFolder0PlacemarkExtendedDataDataValue []byte
 				DocumentFolder0PlacemarkPointCoordinates      []byte
+			}
+			linestring struct {
+				DocumentFolder0PlacemarkLineStringCoordinates []byte
+			}
+			polygon struct {
+				DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates []byte
 			}
 		}
 	}
@@ -44,11 +52,6 @@ func (o *OM) InitFlag() {
 	}
 	o.flags.tsv = flag.String("f", "master.tsv", `マスターシートからコピペしたtsv`)
 	flag.Parse()
-}
-
-func (o *OM) LoadTemplate() {
-	o.template.root = o.loadFile("template.kml")
-	o.template.placemark = o.loadFile("template.placemark.kml")
 }
 
 func (o *OM) LoadTSV() {
@@ -73,6 +76,15 @@ func (o *OM) LoadTSV() {
 			log.Fatal(err)
 		}
 		o.ParseTSV(line)
+		o.template.root = o.loadFile("template.kml")
+		switch line[6] {
+		case "1":
+			o.template.placemark = o.loadFile("template.placemark.kml")
+		case "2":
+			o.template.placemark = o.loadFile("template.linestring.kml")
+		case "3":
+			o.template.placemark = o.loadFile("template.polygon.kml")
+		}
 		o.template.DocumentFolder0Placemark.Write(
 			o.SetValPlacemark(),
 		)
@@ -104,10 +116,19 @@ func (o *OM) SetValTemplate() {
 
 func (o *OM) ParseTSV(tsv []string) {
 	o.val.placemark.DocumentFolder0PlacemarkName = []byte(tsv[0])
-	o.val.placemark.DocumentFolder0PlacemarkPointCoordinates = []byte(fmt.Sprintf("%s,%s,0", tsv[1], tsv[2]))
 	o.val.placemark.DocumentFolder0PlacemarkDescription = []byte(tsv[3])
 	o.val.placemark.DocumentFolder0PlacemarkExtendedDataDataValue = []byte(tsv[4])
 	o.val.placemark.DocumentFolder0PlacemarkStyleUrl = []byte(tsv[5])
+	switch tsv[6] {
+	case "1":
+		o.val.placemark.DocumentFolder0PlacemarkPointCoordinates = []byte(fmt.Sprintf("%s,%s,0", tsv[1], tsv[2]))
+	case "2":
+		var coordinates = strings.ReplaceAll(tsv[7], ":", "\n")
+		o.val.linestring.DocumentFolder0PlacemarkLineStringCoordinates = []byte(coordinates)
+	case "3":
+		var coordinates = strings.ReplaceAll(tsv[7], ":", "\n")
+		o.val.polygon.DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates = []byte(coordinates)
+	}
 }
 
 func (o *OM) SetValPlacemark() []byte {
@@ -117,6 +138,9 @@ func (o *OM) SetValPlacemark() []byte {
 	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkStyleUrl$$$`), o.val.placemark.DocumentFolder0PlacemarkStyleUrl)
 	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkExtendedDataDataValue$$$`), o.val.placemark.DocumentFolder0PlacemarkExtendedDataDataValue)
 	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkPointCoordinates$$$`), o.val.placemark.DocumentFolder0PlacemarkPointCoordinates)
+	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkLineStringCoordinates$$$`), o.val.linestring.DocumentFolder0PlacemarkLineStringCoordinates)
+	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates$$$`), o.val.polygon.DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates)
+
 	return b
 }
 
@@ -179,7 +203,6 @@ func main() {
 		om = OM{}
 	)
 	om.InitFlag()
-	om.LoadTemplate()
 	om.LoadTSV()
 	om.SetValTemplate()
 	om.SaveKml()

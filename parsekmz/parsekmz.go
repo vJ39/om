@@ -11,6 +11,7 @@ import (
 	"log"
 	"os"
 	"regexp"
+	"strings"
 )
 
 type (
@@ -27,9 +28,21 @@ type (
 		Placemark []InPlacemark `xml:"Placemark"`
 	}
 	InPlacemark struct {
-		Name         string `xml:"name"`
-		Description  string `xml:"description"`
-		StyleUrl     string `xml:"styleUrl"`
+		Name        string `xml:"name"`
+		Description string `xml:"description"`
+		StyleUrl    string `xml:"styleUrl"`
+		LineString  struct {
+			Tessellate  string `xml:"tessellate"`
+			Coordinates string `xml:"coordinates"`
+		} `xml:"LineString"`
+		Polygon struct {
+			OuterBoundaryIs struct {
+				LinearRing struct {
+					Tessellate  string `xml:"tessellate"`
+					Coordinates string `xml:"coordinates"`
+				} `xml:"LinearRing"`
+			} `xml:"outerBoundaryIs"`
+		} `xml:"Polygon"`
 		ExtendedData struct {
 			Data struct {
 				Value string `xml:"value"`
@@ -100,14 +113,32 @@ func readfile(filename string) error {
 
 	for _, folder := range mapdata.Document.Folder {
 		for _, placemark := range folder.Placemark {
-			placemark.Point.Coordinates = trim(placemark.Point.Coordinates)
-			placemark.Point.Coordinates = splitCoodinates(placemark.Point.Coordinates)
-			fmt.Printf("%s\t%s\t%s\t%s\t%s\n",
+			var (
+				t           int
+				coordinates string = ""
+			)
+			placemark.Point.Coordinates = splitcoordinates(trim(placemark.Point.Coordinates))
+			placemark.LineString.Coordinates = splitLinecoordinates(placemark.LineString.Coordinates)
+			placemark.Polygon.OuterBoundaryIs.LinearRing.Coordinates = splitLinecoordinates(placemark.Polygon.OuterBoundaryIs.LinearRing.Coordinates)
+			if len(placemark.Point.Coordinates) > 0 {
+				t = 1
+			} else if len(placemark.LineString.Coordinates) > 0 {
+				t = 2
+				placemark.Point.Coordinates = "\t"
+				coordinates = placemark.LineString.Coordinates
+			} else if len(placemark.Polygon.OuterBoundaryIs.LinearRing.Coordinates) > 0 {
+				t = 3
+				placemark.Point.Coordinates = "\t"
+				coordinates = placemark.Polygon.OuterBoundaryIs.LinearRing.Coordinates
+			}
+			fmt.Printf("%s\t%s\t%s\t%s\t%s\t%d\t%s\n",
 				trimLF(placemark.Name),
 				placemark.Point.Coordinates,
 				trimLF(placemark.Description),
 				trimLF(placemark.ExtendedData.Data.Value),
 				trimLF(placemark.StyleUrl),
+				t,
+				trimLF(coordinates),
 			)
 		}
 	}
@@ -123,19 +154,42 @@ func readfile(filename string) error {
 }
 
 func trimLF(s string) string {
-	var re *regexp.Regexp = regexp.MustCompile(`[\n\s]+`)
+	var re *regexp.Regexp = regexp.MustCompile(`[\n\s]*`)
 	return re.ReplaceAllString(s, "")
 }
 
 func trim(s string) string {
-	var re *regexp.Regexp = regexp.MustCompile(`[\n\s]+([\d\.,]+)[\s\n]+`)
+	var re *regexp.Regexp = regexp.MustCompile(`[\n\s]*([\d\.,]+)[\s\n]*`)
 	return re.ReplaceAllString(s, "$1")
 }
 
-func splitCoodinates(s string) string {
+func splitcoordinates(s string) string {
 	var (
 		r *regexp.Regexp
 	)
-	r = regexp.MustCompile(`^(\d+\.\d+),(\d+\.\d+),0$`)
+	r = regexp.MustCompile(`(\d+\.\d+),(\d+\.\d+),0`)
 	return r.ReplaceAllString(s, "$1\t$2")
+}
+
+func splitLinecoordinates(s string) string {
+	type (
+		coordinates struct {
+			in  []string
+			out []string
+		}
+	)
+	var (
+		c coordinates
+	)
+	c.in = strings.Split(s, "\n")
+	for _, coodinate := range c.in {
+		var (
+			trimed string = trimLF(trim(coodinate))
+		)
+		if len(trimed) < 1 {
+			continue
+		}
+		c.out = append(c.out, trimed)
+	}
+	return strings.Join(c.out, ":")
 }
