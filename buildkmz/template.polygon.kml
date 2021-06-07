@@ -1,0 +1,18 @@
+      <Placemark>
+        <name>$$$DocumentFolder0PlacemarkName$$$</name>
+        <description><![CDATA[$$$DocumentFolder0PlacemarkDescription$$$]]></description>
+        <styleUrl>$$$DocumentFolder0PlacemarkStyleUrl$$$</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[$$$DocumentFolder0PlacemarkExtendedDataDataValue$$$]]></value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>$$$DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates$$$</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
