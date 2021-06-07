@@ -26,6 +26,7 @@ type (
 			root                     []byte
 			DocumentFolder0Placemark bytes.Buffer
 			placemark                []byte
+			placemarkExtendedData    []byte
 			polygon                  []byte
 		}
 		val struct {
@@ -35,6 +36,7 @@ type (
 				DocumentFolder0PlacemarkStyleUrl              []byte
 				DocumentFolder0PlacemarkExtendedDataDataValue []byte
 				DocumentFolder0PlacemarkPointCoordinates      []byte
+				DocumentFolder0PlacemarkExtendedData          []byte
 			}
 			linestring struct {
 				DocumentFolder0PlacemarkLineStringCoordinates []byte
@@ -85,6 +87,7 @@ func (o *OM) LoadTSV() {
 		case "3":
 			o.template.placemark = o.loadFile("template.polygon.kml")
 		}
+		o.template.placemarkExtendedData = o.loadFile("template.placemark.ExtendedData.kml")
 		o.template.DocumentFolder0Placemark.Write(
 			o.SetValPlacemark(),
 		)
@@ -121,7 +124,7 @@ func (o *OM) ParseTSV(tsv []string) {
 	o.val.placemark.DocumentFolder0PlacemarkStyleUrl = []byte(tsv[5])
 	switch tsv[6] {
 	case "1":
-		o.val.placemark.DocumentFolder0PlacemarkPointCoordinates = []byte(fmt.Sprintf("%s,%s,0", tsv[1], tsv[2]))
+		o.val.placemark.DocumentFolder0PlacemarkPointCoordinates = []byte(fmt.Sprintf("\n            %s,%s,0\n          ", tsv[1], tsv[2]))
 	case "2":
 		var coordinates = strings.ReplaceAll(tsv[7], ":", "\n")
 		o.val.linestring.DocumentFolder0PlacemarkLineStringCoordinates = []byte(coordinates)
@@ -132,16 +135,23 @@ func (o *OM) ParseTSV(tsv []string) {
 }
 
 func (o *OM) SetValPlacemark() []byte {
-	var b []byte = o.template.placemark
-	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkName$$$`), o.val.placemark.DocumentFolder0PlacemarkName)
-	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkDescription$$$`), o.val.placemark.DocumentFolder0PlacemarkDescription)
-	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkStyleUrl$$$`), o.val.placemark.DocumentFolder0PlacemarkStyleUrl)
-	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkExtendedDataDataValue$$$`), o.val.placemark.DocumentFolder0PlacemarkExtendedDataDataValue)
-	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkPointCoordinates$$$`), o.val.placemark.DocumentFolder0PlacemarkPointCoordinates)
-	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkLineStringCoordinates$$$`), o.val.linestring.DocumentFolder0PlacemarkLineStringCoordinates)
-	b = bytes.ReplaceAll(b, []byte(`$$$DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates$$$`), o.val.polygon.DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates)
-
-	return b
+	var (
+		p []byte = o.template.placemark
+		e []byte = o.template.placemarkExtendedData
+	)
+	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkName$$$`), o.val.placemark.DocumentFolder0PlacemarkName)
+	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkDescription$$$`), o.val.placemark.DocumentFolder0PlacemarkDescription)
+	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkStyleUrl$$$`), o.val.placemark.DocumentFolder0PlacemarkStyleUrl)
+	if len(o.val.placemark.DocumentFolder0PlacemarkExtendedDataDataValue) > 0 {
+		e = bytes.ReplaceAll(e, []byte(`$$$DocumentFolder0PlacemarkExtendedDataDataValue$$$`), o.val.placemark.DocumentFolder0PlacemarkExtendedDataDataValue)
+	} else {
+		e = []byte("")
+	}
+	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkPointCoordinates$$$`), o.val.placemark.DocumentFolder0PlacemarkPointCoordinates)
+	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkLineStringCoordinates$$$`), o.val.linestring.DocumentFolder0PlacemarkLineStringCoordinates)
+	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates$$$`), o.val.polygon.DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates)
+	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkExtendedData$$$`), e)
+	return p
 }
 
 func (o *OM) SaveKml() {

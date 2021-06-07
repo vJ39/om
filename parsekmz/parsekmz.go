@@ -154,8 +154,8 @@ func readfile(filename string) error {
 }
 
 func trimLF(s string) string {
-	var re *regexp.Regexp = regexp.MustCompile(`[\n\s]*`)
-	return re.ReplaceAllString(s, "")
+	var re *regexp.Regexp = regexp.MustCompile(`^[\n\s]*([^\n\s]*)[\n\s]*$`)
+	return re.ReplaceAllString(s, "$1")
 }
 
 func trim(s string) string {
