@@ -176,11 +176,23 @@ func (o *OM) Zip() {
 	o.z = zip.NewWriter(r)
 	defer o.z.Close()
 
-	o.addFile("doc.kml")
-	o.addFile("images/icon-2.png")
-	o.addFile("images/icon-3.png")
-	o.addFile("images/icon-4.png")
-	o.addFile("images/icon-5.png")
+	for _, file := range []string{
+		`doc.kml`,
+		`images/icon-1.png`,
+		`images/icon-10.png`,
+		`images/icon-11.png`,
+		`images/icon-12.png`,
+		`images/icon-2.png`,
+		`images/icon-3.png`,
+		`images/icon-4.png`,
+		`images/icon-5.png`,
+		`images/icon-6.png`,
+		`images/icon-7.png`,
+		`images/icon-8.png`,
+		`images/icon-9.png`,
+	} {
+		o.addFile(file)
+	}
 }
 
 func (o *OM) addFile(path string) {

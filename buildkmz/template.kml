@@ -3,149 +3,429 @@
   <Document>
     <name>$$$DocumentName$$$</name>
     <description>$$$DocumentDescription$$$</description>
-    <Style id="icon-1502-0288D1-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
+    <Style id="icon-ci-1-normal">
       <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-3.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1502-0288D1-highlight">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-3.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1502-0288D1">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1502-0288D1-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1502-0288D1-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1502-C2185B-normal">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-4.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1502-C2185B-highlight">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-4.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1502-C2185B">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1502-C2185B-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1502-C2185B-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1625-C2185B-normal">
-      <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
           <href>images/icon-1.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-1625-C2185B-highlight">
+    <Style id="icon-ci-1-highlight">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
           <href>images/icon-1.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-1625-C2185B">
+    <StyleMap id="icon-ci-1">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1625-C2185B-normal</styleUrl>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1625-C2185B-highlight</styleUrl>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1625-F9A825-normal">
+    <Style id="makiguchi-p-normal">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="makiguchi-p-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="makiguchi-p">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#makiguchi-p-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#makiguchi-p-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="toda-g-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="toda-g-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="toda-g">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#toda-g-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#toda-g-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="makiguchi-s-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="makiguchi-s-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="makiguchi-s">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#makiguchi-s-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#makiguchi-s-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="makiguchi-g-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="makiguchi-g-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="makiguchi-g">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#makiguchi-g-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#makiguchi-g-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
         <Icon>
           <href>images/icon-2.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-1625-F9A825-highlight">
+    <Style id="icon-ci-2-highlight">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
           <href>images/icon-2.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-1625-F9A825">
+    <StyleMap id="icon-ci-2">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1625-F9A825-normal</styleUrl>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1625-F9A825-highlight</styleUrl>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1834-3949AB-nodesc-normal">
+    <Style id="toda-p-normal">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="toda-p-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="toda-p">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#toda-p-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#toda-p-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-3-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-3">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="ikeda-p-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="ikeda-p-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="ikeda-p">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#ikeda-p-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#ikeda-p-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-4-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-4">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="soka-p-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="soka-p-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="soka-p">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#soka-p-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#soka-p-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="soka-s-normal">
+      <IconStyle>
+        <scale>1.1</scale>
         <Icon>
           <href>images/icon-5.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
@@ -154,26 +434,38 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1834-3949AB-nodesc-highlight">
+    <Style id="soka-s-highlight">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
           <href>images/icon-5.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
       </LabelStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1731-0288D1-nodesc-normal">
+    <StyleMap id="soka-s">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#soka-s-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#soka-s-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="soka-g-normal">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
-          <href>images/icon-route-3.png</href>
+          <href>images/icon-6.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
@@ -182,46 +474,38 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1731-0288D1-nodesc-highlight">
+    <Style id="soka-g-highlight">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
-          <href>images/icon-route-3.png</href>
+          <href>images/icon-6.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
       </LabelStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1834-3949AB-nodesc">
+    <StyleMap id="soka-g">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1834-3949AB-nodesc-normal</styleUrl>
+        <styleUrl>#soka-g-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1834-3949AB-nodesc-highlight</styleUrl>
+        <styleUrl>#soka-g-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <StyleMap id="icon-1731-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1731-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1731-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1731-C2185B-nodesc-normal">
+    <Style id="ikeda-s-normal">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
-          <href>images/icon-route-1.png</href>
+          <href>images/icon-7.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
@@ -230,74 +514,38 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1731-C2185B-nodesc-highlight">
+    <Style id="ikeda-s-highlight">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
-          <href>images/icon-route-1.png</href>
+          <href>images/icon-7.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
       </LabelStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1731-C2185B-nodesc">
+    <StyleMap id="ikeda-s">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1731-C2185B-nodesc-normal</styleUrl>
+        <styleUrl>#ikeda-s-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1731-C2185B-nodesc-highlight</styleUrl>
+        <styleUrl>#ikeda-s-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1898-0288D1-nodesc-normal">
+    <Style id="ikeda-g-normal">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
-          <href>images/icon-route-4.png</href>
+          <href>images/icon-8.png</href>
         </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1898-0288D1-nodesc-highlight">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-route-4.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1898-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1898-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1898-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1898-C2185B-nodesc-normal">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-route-2.png</href>
-        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
@@ -306,37 +554,38 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1898-C2185B-nodesc-highlight">
+    <Style id="ikeda-g-highlight">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
-          <href>images/icon-route-2.png</href>
+          <href>images/icon-8.png</href>
         </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
       </LabelStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1898-C2185B-nodesc">
+    <StyleMap id="ikeda-g">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1898-C2185B-nodesc-normal</styleUrl>
+        <styleUrl>#ikeda-g-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1898-C2185B-nodesc-highlight</styleUrl>
+        <styleUrl>#ikeda-g-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="toda-s-normal">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
-          <href>images/icon-route-5.png</href>
+          <href>images/icon-9.png</href>
         </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
         <scale>0</scale>
@@ -345,365 +594,117 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="toda-s-highlight">
       <IconStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
         <Icon>
-          <href>images/icon-route-5.png</href>
+          <href>images/icon-9.png</href>
         </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
       <LabelStyle>
-        <scale>1</scale>
+        <scale>1.1</scale>
       </LabelStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="toda-s">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#toda-s-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#toda-s-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-6425-nodesc-normal">
+    <Style id="makiguchi-l-normal">
       <LineStyle>
-        <color>ffd18802</color>
-        <width>6.425</width>
+        <color>ff5b18c2</color>
+        <width>10</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="line-0288D1-6425-nodesc-highlight">
+    <Style id="makiguchi-l-highlight">
       <LineStyle>
-        <color>ffd18802</color>
-        <width>9.6375</width>
+        <color>ff5b18c2</color>
+        <width>15</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="line-0288D1-6425-nodesc">
+    <StyleMap id="makiguchi-l">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-0288D1-6425-nodesc-normal</styleUrl>
+        <styleUrl>#makiguchi-l-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-0288D1-6425-nodesc-highlight</styleUrl>
+        <styleUrl>#makiguchi-l-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-6813-nodesc-normal">
+    <Style id="toda-l-normal">
       <LineStyle>
-        <color>ffd18802</color>
-        <width>6.813</width>
+        <color>ff007cf5</color>
+        <width>10</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="line-0288D1-6813-nodesc-highlight">
+    <Style id="toda-l-highlight">
       <LineStyle>
-        <color>ffd18802</color>
-        <width>10.2195</width>
+        <color>ff007cf5</color>
+        <width>15</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="line-0288D1-6813-nodesc">
+    <StyleMap id="toda-l">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-0288D1-6813-nodesc-normal</styleUrl>
+        <styleUrl>#toda-l-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-0288D1-6813-nodesc-highlight</styleUrl>
+        <styleUrl>#toda-l-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-7006-nodesc-normal">
+    <Style id="ikeda-l-normal">
       <LineStyle>
         <color>ffd18802</color>
-        <width>7.006</width>
+        <width>10</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="line-0288D1-7006-nodesc-highlight">
+    <Style id="ikeda-l-highlight">
       <LineStyle>
         <color>ffd18802</color>
-        <width>10.509</width>
+        <width>15</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="line-0288D1-7006-nodesc">
+    <StyleMap id="ikeda-l">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-0288D1-7006-nodesc-normal</styleUrl>
+        <styleUrl>#ikeda-l-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-0288D1-7006-nodesc-highlight</styleUrl>
+        <styleUrl>#ikeda-l-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-7200-nodesc-normal">
+    <Style id="soka-l-normal">
       <LineStyle>
-        <color>ffd18802</color>
-        <width>7.2</width>
+        <color>ff589d0f</color>
+        <width>10</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="line-0288D1-7200-nodesc-highlight">
+    <Style id="soka-l-highlight">
       <LineStyle>
-        <color>ffd18802</color>
-        <width>10.8</width>
+        <color>ff589d0f</color>
+        <width>15</width>
       </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="line-0288D1-7200-nodesc">
+    <StyleMap id="soka-l">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-0288D1-7200-nodesc-normal</styleUrl>
+        <styleUrl>#soka-l-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-0288D1-7200-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-7394-nodesc-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>7.394</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-0288D1-7394-nodesc-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>11.091</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-0288D1-7394-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-7394-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-7394-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-8750-nodesc-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>8.75</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-0288D1-8750-nodesc-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>13.125</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-0288D1-8750-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-8750-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-8750-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-C2185B-6425-nodesc-normal">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>6.425</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-C2185B-6425-nodesc-highlight">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>9.6375</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-C2185B-6425-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-C2185B-6425-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-C2185B-6425-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-C2185B-6813-nodesc-normal">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>6.813</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-C2185B-6813-nodesc-highlight">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>10.2195</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-C2185B-6813-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-C2185B-6813-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-C2185B-6813-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-C2185B-7394-nodesc-normal">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>7.394</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-C2185B-7394-nodesc-highlight">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>11.091</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-C2185B-7394-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-C2185B-7394-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-C2185B-7394-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-C2185B-7781-nodesc-normal">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>7.781</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-C2185B-7781-nodesc-highlight">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>11.6715</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-C2185B-7781-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-C2185B-7781-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-C2185B-7781-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-C2185B-8363-nodesc-normal">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>8.363</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-C2185B-8363-nodesc-highlight">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>12.5445</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-C2185B-8363-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-C2185B-8363-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-C2185B-8363-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-C2185B-9913-nodesc-normal">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>9.913</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-C2185B-9913-nodesc-highlight">
-      <LineStyle>
-        <color>ff5b18c2</color>
-        <width>14.8695</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-C2185B-9913-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-C2185B-9913-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-C2185B-9913-nodesc-highlight</styleUrl>
+        <styleUrl>#soka-l-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
