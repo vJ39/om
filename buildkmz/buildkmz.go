@@ -78,16 +78,16 @@ func (o *OM) LoadTSV() {
 			log.Fatal(err)
 		}
 		o.ParseTSV(line)
-		o.template.root = o.loadFile("template.kml")
+		o.template.root = o.loadFile("templates/template.kml")
 		switch line[6] {
 		case "1":
-			o.template.placemark = o.loadFile("template.placemark.kml")
+			o.template.placemark = o.loadFile("templates/template.placemark.kml")
 		case "2":
-			o.template.placemark = o.loadFile("template.linestring.kml")
+			o.template.placemark = o.loadFile("templates/template.linestring.kml")
 		case "3":
-			o.template.placemark = o.loadFile("template.polygon.kml")
+			o.template.placemark = o.loadFile("templates/template.polygon.kml")
 		}
-		o.template.placemarkExtendedData = o.loadFile("template.placemark.ExtendedData.kml")
+		o.template.placemarkExtendedData = o.loadFile("templates/template.placemark.ExtendedData.kml")
 		o.template.DocumentFolder0Placemark.Write(
 			o.SetValPlacemark(),
 		)
