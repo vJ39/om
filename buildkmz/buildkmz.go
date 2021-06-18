@@ -142,11 +142,7 @@ func (o *OM) SetValPlacemark() []byte {
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkName$$$`), o.val.placemark.DocumentFolder0PlacemarkName)
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkDescription$$$`), o.val.placemark.DocumentFolder0PlacemarkDescription)
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkStyleUrl$$$`), o.val.placemark.DocumentFolder0PlacemarkStyleUrl)
-	if len(o.val.placemark.DocumentFolder0PlacemarkExtendedDataDataValue) > 0 {
-		e = bytes.ReplaceAll(e, []byte(`$$$DocumentFolder0PlacemarkExtendedDataDataValue$$$`), o.val.placemark.DocumentFolder0PlacemarkExtendedDataDataValue)
-	} else {
-		e = []byte("")
-	}
+	e = bytes.ReplaceAll(e, []byte(`$$$DocumentFolder0PlacemarkExtendedDataDataValue$$$`), o.val.placemark.DocumentFolder0PlacemarkExtendedDataDataValue)
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkPointCoordinates$$$`), o.val.placemark.DocumentFolder0PlacemarkPointCoordinates)
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkLineStringCoordinates$$$`), o.val.linestring.DocumentFolder0PlacemarkLineStringCoordinates)
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates$$$`), o.val.polygon.DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates)

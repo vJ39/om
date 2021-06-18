@@ -56,7 +56,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c000.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -130,7 +130,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c020.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -204,7 +204,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c045.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -278,7 +278,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c070.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -352,7 +352,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c090.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -426,7 +426,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c110.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -500,7 +500,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c135.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -574,7 +574,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c160.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -648,7 +648,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c180.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -722,7 +722,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c200.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -796,7 +796,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c225.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -870,7 +870,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c250.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -899,8 +899,7 @@
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
+      <LabelStyle> <scale>0</scale>
       </LabelStyle>
     </Style>
     <Style id="icon-ci-c270-highlight">
@@ -944,7 +943,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c270.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1018,7 +1017,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/icon-1.png</href>
+          <href>images/c290.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1037,6 +1036,154 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#c290-p-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-c315-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c315.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-c315-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c315.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-c315">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-c315-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-c315-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="c315-p-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c315.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="c315-p-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c315.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="c315-p">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#c315-p-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#c315-p-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-c340-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c340.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-c340-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c340.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-c340">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-c340-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-c340-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="c340-p-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c340.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="c340-p-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c340.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="c340-p">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#c340-p-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#c340-p-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-ci-1-normal">
