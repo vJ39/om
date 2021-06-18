@@ -2249,13 +2249,13 @@
     <Style id="car1-l-normal">
       <LineStyle>
         <color>ff000000</color>
-        <width>10</width>
+        <width>7</width>
       </LineStyle>
     </Style>
     <Style id="car1-l-highlight">
       <LineStyle>
         <color>ff000000</color>
-        <width>15</width>
+        <width>10</width>
       </LineStyle>
     </Style>
     <StyleMap id="car1-l">
@@ -2271,13 +2271,13 @@
     <Style id="car2-l-normal">
       <LineStyle>
         <color>ff757575</color>
-        <width>10</width>
+        <width>7</width>
       </LineStyle>
     </Style>
     <Style id="car2-l-highlight">
       <LineStyle>
         <color>ff757575</color>
-        <width>15</width>
+        <width>10</width>
       </LineStyle>
     </Style>
     <StyleMap id="car2-l">
