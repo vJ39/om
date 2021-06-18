@@ -190,6 +190,22 @@ func (o *OM) Zip() {
 		`images/icon-7.png`,
 		`images/icon-8.png`,
 		`images/icon-9.png`,
+		`images/c000.png`,
+		`images/c020.png`,
+		`images/c045.png`,
+		`images/c070.png`,
+		`images/c090.png`,
+		`images/c110.png`,
+		`images/c135.png`,
+		`images/c160.png`,
+		`images/c180.png`,
+		`images/c200.png`,
+		`images/c225.png`,
+		`images/c250.png`,
+		`images/c270.png`,
+		`images/c290.png`,
+		`images/c315.png`,
+		`images/c340.png`,
 	} {
 		o.addFile(file)
 	}
