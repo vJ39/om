@@ -3,11 +3,11 @@
   <Document>
     <name>$$$DocumentName$$$</name>
     <description>$$$DocumentDescription$$$</description>
-    <Style id="icon-ci-c-s-normal">
+    <Style id="icon-ci-c1-s-normal">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-s.jpg</href>
+          <href>images/c1-s.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -15,11 +15,11 @@
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-ci-c-s-highlight">
+    <Style id="icon-ci-c1-s-highlight">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-s.jpg</href>
+          <href>images/c1-s.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -27,21 +27,21 @@
         <scale>1.1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-ci-c-s">
+    <StyleMap id="icon-ci-c1-s">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-ci-c-s-normal</styleUrl>
+        <styleUrl>#icon-ci-c1-s-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-ci-c-s-highlight</styleUrl>
+        <styleUrl>#icon-ci-c1-s-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="c-s-normal">
+    <Style id="c1-s-normal">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-s.jpg</href>
+          <href>images/c1-s.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -52,11 +52,11 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="c-s-highlight">
+    <Style id="c1-s-highlight">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-s.jpg</href>
+          <href>images/c1-s.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -67,21 +67,21 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="c-s">
+    <StyleMap id="c1-s">
       <Pair>
         <key>normal</key>
-        <styleUrl>#c-s-normal</styleUrl>
+        <styleUrl>#c1-s-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#c-s-highlight</styleUrl>
+        <styleUrl>#c1-s-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-ci-c-s-normal">
+    <Style id="icon-ci-c1-s-normal">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-s.jpg</href>
+          <href>images/c1-s.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -89,11 +89,11 @@
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-ci-c-s-highlight">
+    <Style id="icon-ci-c1-s-highlight">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-s.jpg</href>
+          <href>images/c1-s.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -101,21 +101,21 @@
         <scale>1.1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-ci-c-s">
+    <StyleMap id="icon-ci-c1-s">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-ci-c-s-normal</styleUrl>
+        <styleUrl>#icon-ci-c1-s-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-ci-c-s-highlight</styleUrl>
+        <styleUrl>#icon-ci-c1-s-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="c-s-normal">
+    <Style id="c1-s-normal">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-s.jpg</href>
+          <href>images/c1-s.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -126,11 +126,11 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="c-s-highlight">
+    <Style id="c1-s-highlight">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-s.jpg</href>
+          <href>images/c1-s.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -141,21 +141,21 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="c-s">
+    <StyleMap id="c1-s">
       <Pair>
         <key>normal</key>
-        <styleUrl>#c-s-normal</styleUrl>
+        <styleUrl>#c1-s-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#c-s-highlight</styleUrl>
+        <styleUrl>#c1-s-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-ci-c-g-normal">
+    <Style id="icon-ci-c1-g-normal">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-g.jpg</href>
+          <href>images/c1-g.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -163,11 +163,11 @@
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-ci-c-g-highlight">
+    <Style id="icon-ci-c1-g-highlight">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-g.jpg</href>
+          <href>images/c1-g.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -175,21 +175,21 @@
         <scale>1.1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-ci-c-g">
+    <StyleMap id="icon-ci-c1-g">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-ci-c-g-normal</styleUrl>
+        <styleUrl>#icon-ci-c1-g-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-ci-c-g-highlight</styleUrl>
+        <styleUrl>#icon-ci-c1-g-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="c-g-normal">
+    <Style id="c1-g-normal">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-g.jpg</href>
+          <href>images/c1-g.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -200,11 +200,11 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="c-g-highlight">
+    <Style id="c1-g-highlight">
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c-g.jpg</href>
+          <href>images/c1-g.jpg</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -215,14 +215,236 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="c-g">
+    <StyleMap id="c1-g">
       <Pair>
         <key>normal</key>
-        <styleUrl>#c-g-normal</styleUrl>
+        <styleUrl>#c1-g-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#c-g-highlight</styleUrl>
+        <styleUrl>#c1-g-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-c2-s-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-s.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-c2-s-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-s.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-c2-s">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-c2-s-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-c2-s-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="c2-s-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-s.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="c2-s-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-s.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="c2-s">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#c2-s-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#c2-s-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-c2-s-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-s.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-c2-s-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-s.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-c2-s">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-c2-s-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-c2-s-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="c2-s-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-s.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="c2-s-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-s.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="c2-s">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#c2-s-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#c2-s-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-c2-g-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-g.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-c2-g-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-g.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-c2-g">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-c2-g-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-c2-g-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="c2-g-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-g.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="c2-g-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/c2-g.jpg</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="c2-g">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#c2-g-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#c2-g-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-ci-c000-normal">
@@ -2024,26 +2246,48 @@
         <styleUrl>#toda-s-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="car-l-normal">
+    <Style id="car1-l-normal">
       <LineStyle>
         <color>ff000000</color>
         <width>10</width>
       </LineStyle>
     </Style>
-    <Style id="car-l-highlight">
+    <Style id="car1-l-highlight">
       <LineStyle>
         <color>ff000000</color>
         <width>15</width>
       </LineStyle>
     </Style>
-    <StyleMap id="car-l">
+    <StyleMap id="car1-l">
       <Pair>
         <key>normal</key>
-        <styleUrl>#car-l-normal</styleUrl>
+        <styleUrl>#car1-l-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#car-l-highlight</styleUrl>
+        <styleUrl>#car1-l-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="car2-l-normal">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>10</width>
+      </LineStyle>
+    </Style>
+    <Style id="car2-l-highlight">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="car2-l">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#car2-l-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#car2-l-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="makiguchi-l-normal">
