@@ -186,6 +186,8 @@ func (o *OM) Zip() {
 		`images/icon-7.png`,
 		`images/icon-8.png`,
 		`images/icon-9.png`,
+		`images/c-s.jpg`,
+		`images/c-g.jpg`,
 		`images/c000.jpg`,
 		`images/c020.jpg`,
 		`images/c045.jpg`,
