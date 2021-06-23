@@ -2249,13 +2249,13 @@
     <Style id="car1-l-normal">
       <LineStyle>
         <color>ff000000</color>
-        <width>5</width>
+        <width>3</width>
       </LineStyle>
     </Style>
     <Style id="car1-l-highlight">
       <LineStyle>
         <color>ff000000</color>
-        <width>8</width>
+        <width>6</width>
       </LineStyle>
     </Style>
     <StyleMap id="car1-l">
@@ -2271,13 +2271,13 @@
     <Style id="car2-l-normal">
       <LineStyle>
         <color>ff757575</color>
-        <width>5</width>
+        <width>3</width>
       </LineStyle>
     </Style>
     <Style id="car2-l-highlight">
       <LineStyle>
         <color>ff757575</color>
-        <width>8</width>
+        <width>6</width>
       </LineStyle>
     </Style>
     <StyleMap id="car2-l">
@@ -2293,13 +2293,13 @@
     <Style id="makiguchi-l-normal">
       <LineStyle>
         <color>ff5b18c2</color>
-        <width>8</width>
+        <width>6</width>
       </LineStyle>
     </Style>
     <Style id="makiguchi-l-highlight">
       <LineStyle>
         <color>ff5b18c2</color>
-        <width>15</width>
+        <width>11</width>
       </LineStyle>
     </Style>
     <StyleMap id="makiguchi-l">
@@ -2315,13 +2315,13 @@
     <Style id="toda-l-normal">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>8</width>
+        <width>6</width>
       </LineStyle>
     </Style>
     <Style id="toda-l-highlight">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>15</width>
+        <width>11</width>
       </LineStyle>
     </Style>
     <StyleMap id="toda-l">
@@ -2337,13 +2337,13 @@
     <Style id="ikeda-l-normal">
       <LineStyle>
         <color>ffd18802</color>
-        <width>8</width>
+        <width>6</width>
       </LineStyle>
     </Style>
     <Style id="ikeda-l-highlight">
       <LineStyle>
         <color>ffd18802</color>
-        <width>15</width>
+        <width>11</width>
       </LineStyle>
     </Style>
     <StyleMap id="ikeda-l">
@@ -2359,13 +2359,13 @@
     <Style id="soka-l-normal">
       <LineStyle>
         <color>ff589d0f</color>
-        <width>8</width>
+        <width>6</width>
       </LineStyle>
     </Style>
     <Style id="soka-l-highlight">
       <LineStyle>
         <color>ff589d0f</color>
-        <width>15</width>
+        <width>11</width>
       </LineStyle>
     </Style>
     <StyleMap id="soka-l">
