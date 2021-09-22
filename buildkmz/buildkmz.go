@@ -20,7 +20,8 @@ type (
 		z     *zip.Writer
 		kml   *os.File
 		flags struct {
-			tsv *string
+			tsv       *string
+			layerName *string
 		}
 		template struct {
 			root                     []byte
@@ -53,6 +54,7 @@ func (o *OM) InitFlag() {
 		os.Chdir(filepath.Dir(file))
 	}
 	o.flags.tsv = flag.String("f", "master.tsv", `マスターシートからコピペしたtsv`)
+	o.flags.layerName = flag.String("n", "街頭ポイント", `マップレイヤー名`)
 	flag.Parse()
 }
 
@@ -113,7 +115,7 @@ func (p *OM) loadFile(filename string) []byte {
 func (o *OM) SetValTemplate() {
 	o.template.root = bytes.ReplaceAll(o.template.root, []byte(`$$$DocumentName$$$`), []byte(fmt.Sprintf("OM - %s", time.Now().String())))
 	o.template.root = bytes.ReplaceAll(o.template.root, []byte(`$$$DocumentDescription$$$`), []byte(""))
-	o.template.root = bytes.ReplaceAll(o.template.root, []byte(`$$$DocumentFolder0Name$$$`), []byte("街頭ポイント"))
+	o.template.root = bytes.ReplaceAll(o.template.root, []byte(`$$$DocumentFolder0Name$$$`), []byte(*o.flags.layerName))
 	o.template.root = bytes.ReplaceAll(o.template.root, []byte(`$$$DocumentFolder0Placemark$$$`), o.template.DocumentFolder0Placemark.Bytes())
 }
 
@@ -146,7 +148,7 @@ func (o *OM) SetValPlacemark() []byte {
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkPointCoordinates$$$`), o.val.placemark.DocumentFolder0PlacemarkPointCoordinates)
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkLineStringCoordinates$$$`), o.val.linestring.DocumentFolder0PlacemarkLineStringCoordinates)
 	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates$$$`), o.val.polygon.DocumentFolder0PlacemarkPolygonOuterBoundaryIsLinearRingCoordinates)
-	p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkExtendedData$$$`), e)
+	// p = bytes.ReplaceAll(p, []byte(`$$$DocumentFolder0PlacemarkExtendedData$$$`), e)
 	return p
 }
 
