@@ -451,7 +451,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c000.jpg</href>
+          <href>images/c000.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -463,7 +463,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c000.jpg</href>
+          <href>images/c000.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -485,7 +485,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c000.jpg</href>
+          <href>images/c000.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -500,7 +500,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c000.jpg</href>
+          <href>images/c000.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -525,7 +525,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c020.jpg</href>
+          <href>images/c020.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -537,7 +537,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c020.jpg</href>
+          <href>images/c020.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -559,7 +559,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c020.jpg</href>
+          <href>images/c020.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -574,7 +574,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c020.jpg</href>
+          <href>images/c020.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -599,7 +599,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c045.jpg</href>
+          <href>images/c045.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -611,7 +611,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c045.jpg</href>
+          <href>images/c045.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -633,7 +633,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c045.jpg</href>
+          <href>images/c045.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -648,7 +648,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c045.jpg</href>
+          <href>images/c045.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -673,7 +673,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c070.jpg</href>
+          <href>images/c070.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -685,7 +685,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c070.jpg</href>
+          <href>images/c070.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -707,7 +707,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c070.jpg</href>
+          <href>images/c070.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -722,7 +722,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c070.jpg</href>
+          <href>images/c070.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -747,7 +747,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c090.jpg</href>
+          <href>images/c090.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -759,7 +759,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c090.jpg</href>
+          <href>images/c090.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -781,7 +781,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c090.jpg</href>
+          <href>images/c090.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -796,7 +796,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c090.jpg</href>
+          <href>images/c090.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -821,7 +821,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c110.jpg</href>
+          <href>images/c110.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -833,7 +833,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c110.jpg</href>
+          <href>images/c110.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -855,7 +855,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c110.jpg</href>
+          <href>images/c110.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -870,7 +870,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c110.jpg</href>
+          <href>images/c110.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -895,7 +895,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c135.jpg</href>
+          <href>images/c135.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -907,7 +907,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c135.jpg</href>
+          <href>images/c135.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -929,7 +929,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c135.jpg</href>
+          <href>images/c135.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -944,7 +944,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c135.jpg</href>
+          <href>images/c135.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -969,7 +969,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c160.jpg</href>
+          <href>images/c160.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -981,7 +981,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c160.jpg</href>
+          <href>images/c160.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1003,7 +1003,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c160.jpg</href>
+          <href>images/c160.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1018,7 +1018,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c160.jpg</href>
+          <href>images/c160.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1043,7 +1043,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c180.jpg</href>
+          <href>images/c180.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1055,7 +1055,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c180.jpg</href>
+          <href>images/c180.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1077,7 +1077,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c180.jpg</href>
+          <href>images/c180.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1092,7 +1092,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c180.jpg</href>
+          <href>images/c180.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1117,7 +1117,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c200.jpg</href>
+          <href>images/c200.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1129,7 +1129,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c200.jpg</href>
+          <href>images/c200.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1151,7 +1151,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c200.jpg</href>
+          <href>images/c200.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1166,7 +1166,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c200.jpg</href>
+          <href>images/c200.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1191,7 +1191,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c225.jpg</href>
+          <href>images/c225.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1203,7 +1203,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c225.jpg</href>
+          <href>images/c225.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1225,7 +1225,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c225.jpg</href>
+          <href>images/c225.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1240,7 +1240,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c225.jpg</href>
+          <href>images/c225.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1265,7 +1265,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c250.jpg</href>
+          <href>images/c250.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1277,7 +1277,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c250.jpg</href>
+          <href>images/c250.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1299,7 +1299,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c250.jpg</href>
+          <href>images/c250.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1314,7 +1314,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c250.jpg</href>
+          <href>images/c250.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1339,7 +1339,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c270.jpg</href>
+          <href>images/c270.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1350,7 +1350,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c270.jpg</href>
+          <href>images/c270.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1372,7 +1372,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c270.jpg</href>
+          <href>images/c270.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1387,7 +1387,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c270.jpg</href>
+          <href>images/c270.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1412,7 +1412,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c290.jpg</href>
+          <href>images/c290.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1424,7 +1424,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c290.jpg</href>
+          <href>images/c290.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1446,7 +1446,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c290.jpg</href>
+          <href>images/c290.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1461,7 +1461,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c290.jpg</href>
+          <href>images/c290.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1486,7 +1486,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c315.jpg</href>
+          <href>images/c315.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1498,7 +1498,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c315.jpg</href>
+          <href>images/c315.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1520,7 +1520,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c315.jpg</href>
+          <href>images/c315.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1535,7 +1535,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c315.jpg</href>
+          <href>images/c315.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1560,7 +1560,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c340.jpg</href>
+          <href>images/c340.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1572,7 +1572,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c340.jpg</href>
+          <href>images/c340.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1594,7 +1594,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c340.jpg</href>
+          <href>images/c340.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
@@ -1609,7 +1609,7 @@
       <IconStyle>
         <scale>1.1</scale>
         <Icon>
-          <href>images/c340.jpg</href>
+          <href>images/c340.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="16" yunits="insetPixels"/>
       </IconStyle>
